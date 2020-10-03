@@ -118,7 +118,7 @@ input, select, textarea {
 /* Type */
 
 	body, input, select, textarea {
-		color: #585858;
+		color: #000000;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size:16pt;
 		font-weight: 300;
@@ -197,7 +197,7 @@ input, select, textarea {
 
 		}
 
-	h2, h3, h4, h5, h6 {
+	h2, h3, h4,  h6 {
 		font-weight:900;  /*grosor del text dels bottons de index*/
 		line-height: 1.5;
 		margin: 0 0 2em 0;
@@ -210,6 +210,13 @@ input, select, textarea {
 		
 	}
 
+h5 {
+	font-weight: 900; 
+	line-height: 1.5;
+	margin: 0 0 2em 0;
+	text-transform: uppercase;
+	letter-spacing: 0.25em;
+}
 		h2 a, h3 a, h4 a, h5 a, h6 a {
 			color: inherit;
 		}
@@ -2149,6 +2156,7 @@ input, select, textarea {
 	input[type="tel"],
 	select,
 	textarea {
+
 		-moz-appearance: none;
 		-webkit-appearance: none;
 		-ms-appearance: none;
@@ -2214,6 +2222,7 @@ input, select, textarea {
 	}
 
 	textarea {
+
 		padding: 0;
 		min-height: 3.75em;
 	}
