@@ -205,8 +205,9 @@ input, select, textarea {
 		letter-spacing: 0.25em;
 		/*font-family: "Source Sans Pro", Helvetica, sans-serif; estil de font*/
 		-webkit-text-fill-color: white;
-		-webkit-text-stroke-width: 2px;
-		-webkit-text-stroke-color: #000000;
+		-webkit-text-stroke-width: 1px;
+		-webkit-text-stroke-color: black;
+		-webkit-background-clip: #f2849e
 		
 	}
 
@@ -2708,9 +2709,7 @@ h5 {
 					text-transform: uppercase;
 					letter-spacing: 0.25em;
 					
-					/*-webkit-text-fill-color: white;
-					-webkit-text-stroke-width: 2px;
-					-webkit-text-stroke-color: #000000;*/
+					
 				}
 
 				.tiles article > a:hover {
