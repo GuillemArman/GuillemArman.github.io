@@ -25,6 +25,7 @@ section, summary, time, mark, audio, video, hr {
 	font: inherit;
 	vertical-align: baseline;}
 
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
@@ -114,6 +115,20 @@ input, select, textarea {
 			-ms-transition: none !important;
 			transition: none !important;
 		}
+
+		.box {
+			text-align:justify;
+
+			-webkit-column-count:1;
+			-moz-column-count:1;
+			column-count: 1;
+			-webkit-column-gap:50px;
+			-moz-column-gap: 50px;
+			column-gap: 50px;
+
+
+		}
+
 
 /* Type */
 
@@ -2311,7 +2326,8 @@ h5 {
 
 	.box {
 		border-radius: 4px;
-		border: solid 1px #c9c9c9;
+		border: solid 0px #c9c9c9;
+		margin-top: -1.9em;
 		margin-bottom: 2em;
 		padding: 1.5em;
 	}
@@ -2858,10 +2874,11 @@ h5 {
 
 		}
 
+	
 /* Header */
 
 	#header {
-		padding: 8em 0 0.1em 0 ;
+		padding: 5em 0 0.1em 0 ;
 	}
 
 		#header .logo {
